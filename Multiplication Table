@@ -1,0 +1,30 @@
+<doctype html>
+<html>
+<head>
+<style type="text/css">
+body{
+background:#369957;
+padding:0;
+margin:0;
+font-family:cursive;
+color:white;
+font-size:20px;
+}
+
+
+</style>
+</head>
+<body>
+<script type="text/javascript">
+var n;
+var ans;
+
+n =prompt("Enter any number");
+document.write("Multiplication Table of ",+n," is: ");
+ for (i=1;i<=20;i++){
+ ans =n*i;
+ document.write("<br>" +n+ "*" +i+" = ",+ans);
+ }
+</script>
+</body>
+</html>
